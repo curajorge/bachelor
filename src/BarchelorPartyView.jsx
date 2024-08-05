@@ -8,7 +8,7 @@ const itinerary = [
         activities: [
             {
                 name: "Check into Airbnb in Condesa",
-                images: ["src/assets/AirBnbCondesa1.webp", "src/assets/restaurant1.webp", "src/assets/condesa1.webp"],
+                images: ["public/assets/AirBnbCondesa1.webp", "public/assets/restaurant1.webp", "public/assets/condesa1.webp"],
                 description: "Arrive in Mexico City and check into your Airbnb in the Condesa neighborhood. This area is known for its vibrant nightlife and trendy bars."
             }       ]
     },
@@ -18,17 +18,17 @@ const itinerary = [
         activities: [
             {
                 name: "Breakfast at Panadería Rosetta",
-                images: ["src/assets/panaderia1.png", "src/assets/panaderia3.webp", "src/assets/panaderia4.jpg"],
+                images: ["public/assets/panaderia1.png", "public/assets/panaderia3.webp", "public/assets/panaderia4.jpg"],
                 description: "Start your day with a delicious breakfast at this popular bakery in Condesa, known for its artisanal bread and pastries."
             },
             {
                 name: "Hot air balloon ride over Teotihuacan",
-                images: ["src/assets/ballon1.jpg", "src/assets/ballon3.webp", "src/assets/ballon4.jpg"],
+                images: ["public/assets/ballon1.jpg", "public/assets/ballon3.webp", "public/assets/ballon4.jpg"],
                 description: "Experience a unique and thrilling hot air balloon ride over the ancient Teotihuacan Pyramids, offering breathtaking views of this historic site."
             },
             {
                 name: "Explore Roma Neighborhood",
-                images: ["src/assets/roma1.webp", "src/assets/roma2.jpg", "src/assets/roma3.jpg"],
+                images: ["public/assets/roma1.webp", "public/assets/roma2.jpg", "public/assets/roma3.jpg"],
                 description: "Spend the afternoon exploring the Roma neighborhood, known for its eclectic mix of art, culture, and cuisine. Wander through its streets to discover vibrant street art, trendy boutiques, and charming cafes. Be sure to visit notable spots like Plaza Río de Janeiro, the National Medical Center, and the Mercado Roma for an array of gourmet food options."
             },
             // {
@@ -38,12 +38,12 @@ const itinerary = [
             // },
             {
                 name: "Trajinera ride in Xochimilco",
-                images: ["src/assets/trajinera1.webp", "src/assets/trajinera2.jpg", "src/assets/trajinera4.jpg"],
+                images: ["public/assets/trajinera1.webp", "public/assets/trajinera2.jpg", "public/assets/trajinera4.jpg"],
                 description: "Take a colorful trajinera ride through the canals of Xochimilco, complete with music, tequila, and fresh guacamole for a true Mexican fiesta."
             },
             {
                 name: "Drinks and clubbing in Zona Rosa",
-                images: ["src/assets/club1.jpg", "src/assets/club2.jpg", "src/assets/club3.webp"],
+                images: ["public/assets/club1.jpg", "public/assets/club2.jpg", "public/assets/club3.webp"],
                 description: "Start the evening with drinks at El Mayor, a rooftop bar with stunning city views, then head to the Zona Rosa area to dance the night away."
             }
         ]
@@ -54,7 +54,7 @@ const itinerary = [
         activities: [
             {
                 name: "Breakfast at Eno",
-                images: ["src/assets/eno1.jpg", "src/assets/eno2.jpg", "src/assets/eno3.jpg"],
+                images: ["public/assets/eno1.jpg", "public/assets/eno2.jpg", "public/assets/eno3.jpg"],
                 description: "Enjoy breakfast at this well-known spot in the upscale Polanco neighborhood, known for its chic atmosphere and delicious menu."
             },
             // {
@@ -64,22 +64,22 @@ const itinerary = [
             // },
             {
                 name: "Tour Chapultepec Castle",
-                images: ["src/assets/castillo1.webp", "src/assets/castillo2.jpg", "src/assets/castillo3.jpg"],
+                images: ["public/assets/castillo1.webp", "public/assets/castillo2.jpg", "public/assets/castillo3.jpg"],
                 description: "Take a guided tour of Chapultepec Castle, a historic site offering beautiful views of the city and insights into Mexican history."
             },
             {
                 name: "Lunch at Contramar",
-                images: ["src/assets/contramar1.jpg", "src/assets/contramar2.jpg", "src/assets/contramar3.webp"],
+                images: ["public/assets/contramar1.jpg", "public/assets/contramar2.jpg", "public/assets/contramar3.webp"],
                 description: "Savor lunch at Contramar, a popular seafood restaurant in Roma known for its fresh fish and vibrant atmosphere."
             },
             {
                 name: "Lucha Libre wrestling match",
-                images: ["src/assets/lucha1.jpg", "src/assets/lucha2.webp", "src/assets/lucha3.webp"],
+                images: ["public/assets/lucha1.jpg", "public/assets/lucha2.webp", "public/assets/lucha3.webp"],
                 description: "Experience the excitement of a Lucha Libre wrestling match at Arena Mexico, a must-see spectacle for any bachelor party in Mexico City."
             },
             {
                 name: "Nightclub experience",
-                images: ["src/assets/club4.jpg", "src/assets/club5.jpg", "src/assets/club6.jpg"],
+                images: ["public/assets/club4.jpg", "public/assets/club5.jpg", "public/assets/club6.jpg"],
                 description: "End the night at a trendy club like Funk Club, Yu Yu, or Departamento, enjoying bottle service and a night of partying."
             }
         ]
@@ -90,22 +90,22 @@ const itinerary = [
         activities: [
             {
                 name: "Biking taco tour",
-                images: ["src/assets/bike1.jpg", "src/assets/bike2.jpg", "src/assets/bike3.jpg"],
+                images: ["public/assets/bike1.jpg", "public/assets/bike2.jpg", "public/assets/bike3.jpg"],
                 description: "Start the day with a biking taco tour, exploring the city and enjoying delicious tacos from various street vendors along the way."
             },
             {
                 name: "Cocktails at Hanky Panky",
-                images: ["src/assets/hanky1.jpg", "src/assets/hanky2.jpg", "src/assets/hanky3.jpg"],
+                images: ["public/assets/hanky1.jpg", "public/assets/hanky2.jpg", "public/assets/hanky3.jpg"],
                 description: "Visit the speakeasy-style Hanky Panky for expertly crafted cocktails and a light lunch in a unique, hidden bar setting."
             },
             {
                 name: "Farewell dinner at Azul Histórico",
-                images: ["src/assets/azul1.jpg", "src/assets/azul2.jpg", "src/assets/azul3.jpg"],
+                images: ["public/assets/azul1.jpg", "public/assets/azul2.jpg", "public/assets/azul3.jpg"],
                 description: "Have a memorable farewell dinner at Azul Histórico, a restaurant known for its traditional Mexican cuisine in a beautiful setting."
             },
             {
                 name: "Drinks at Toledo Rooftop",
-                images: ["src/assets/toledo1.jpg", "src/assets/toledo2.png", "src/assets/toledo3.png"],
+                images: ["public/assets/toledo1.jpg", "public/assets/toledo2.png", "public/assets/toledo3.png"],
                 description: "End the night with drinks at Toledo Rooftop, enjoying panoramic views of the city and reflecting on your memorable bachelor party trip."
             }
         ]
